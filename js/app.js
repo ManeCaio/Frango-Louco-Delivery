@@ -498,7 +498,7 @@ cardapio.metodos = {
 
             texto += `Número do pedido: *${numeroAleatorio}*\n`;
             texto += `Realizado em: ${data} - ${hora}:${minuto}\n-------------------------\n`;
-            texto += `Nome: *${meuEndereco.nome}*\n-------------------------\n*RESUMO DO PEDIDO*`;
+            texto += `*RESUMO DO PEDIDO*`;
             texto += `\n*\${itens}*\n---------------------\n`;
 
             if (meuEndereco.bairro == "Jardim Sulacap") {
